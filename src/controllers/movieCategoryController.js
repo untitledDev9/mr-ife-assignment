@@ -23,7 +23,7 @@ exports.movieCategory = async (req,res) => {
       message: 'Category created',
       data: newCategory
     })
-  // } catch (error) {
+  } catch (error) {
     console.log(error)
   }
 }
